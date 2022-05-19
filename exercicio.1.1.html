@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Exercício 1.1</title>
+</head>
+
+<body>
+    <script>
+        // Criando uma classe para Frutas
+        class Frutas {
+
+            // Atributos 
+
+            #nome;
+            #peso;
+            #cor;
+
+            setNome(nome){
+                this.#nome = nome;
+
+            }
+
+            getNome(){
+                return this.#nome;
+
+            }
+
+            setPeso(peso){
+                this.#peso = peso;
+
+            }
+
+            getPeso(){
+                return this.#peso;
+
+            }
+
+            setCor(cor){
+                this.Cor = cor;
+            }
+
+            getCor(){
+                return this.#cor;
+
+            }
+        }
+
+            var mercado = new Frutas();
+
+            console.log(mercado);
+
+            var feira = new Frutas();
+
+            console.log(feira);
+
+            // setters
+
+            mercado.setCor('verde');
+            mercado.setPeso('140 g');
+            mercado.setNome('limão');
+
+            feira.setCor('amarelo');
+            feira.setPeso('160 g');
+            feira.setNome('maracujá');
+
+            // getters
+
+            console.log(mercado.getNome());
+
+            console.log(feira.getCor());
+
+
+
+
+
+
+        
+
+    </script>
+
+</body>
+
+</html>

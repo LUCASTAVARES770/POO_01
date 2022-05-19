@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Exercício 1.2</title>
+</head>
+<body>
+
+    <script>
+     class Carro{
+         #marca
+         #modelo
+         #cor
+         #ano 
+
+         setMarca(marca){
+             this.marca = marca;
+
+         }
+
+         getMarca(marca){
+             return this.#marca;
+         }
+
+         setModelo(modelo){
+             this.modelo = modelo;
+
+         }
+
+         getModelo(modelo){
+             return this.#modelo;
+         }
+
+
+         setCor(cor){
+          this.cor = cor; 
+
+         }
+
+         getCor(cor){
+             return this.#cor;
+         }
+
+
+         setAno(ano){
+             this.ano = ano;
+         
+        }
+     
+        getAno(ano){
+             return this.#ano;
+        }
+
+    }
+        
+        var concessionaria = new Carro
+
+        console.log(concessionaria);
+
+        // setters
+
+        concessionaria.setMarca('Nissan')
+        concessionaria.setModelo('Nissan Kicks')
+        concessionaria.setCor('Azul')
+        concessionaria.setAno('2022')
+
+        // getters
+
+        console.log(concessionaria.getMarca());
+
+
+
+  
+
+      </script>
+
+
+    
+</body>
+
+</html>
