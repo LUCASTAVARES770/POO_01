@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color:black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background: #e84e4e url(../img/);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.container{
+    margin:2% auto;
+    width: 80%;
+    text-align: left;
+    background: rgb(0, 255, 8);
+    border: 1px solid black;
+}
+
+.mainav{
+    background-color: rgb(130, 17, 228);
+    color: black;
+    padding: 0 2%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.mainav li{
+    display: inline;
+    padding: 0 2%;
+    border-right: 1px solid black;
+    margin-left: 5%;
+} 
+
+.mainav li a{
+    text-decoration: none;
+    color: rgb(218, 224, 27);
+    font-size: 14px;
+}
+
+.mainav li a:hover{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 14px ; 
+}
